@@ -66,6 +66,7 @@ img {
 
 .container {
     max-width: 1170px;
+    width: 90%;
     margin: auto;
     padding: 0 15px;
 }
@@ -81,7 +82,7 @@ img {
 }
 
 .col-4 {
-    width: 33.3333%;
+    width: 25%;
     padding: 0 15px;
 }
 
@@ -111,10 +112,6 @@ img {
     box-shadow: 0 8px 15px rgba(255, 253, 0, 0.5);
 }
 
-.btn.btn-default:hover {
-    background-color: #fff;
-}
-
 #header {
     padding: 5px 0;
     border-bottom: 2px solid #976ce7;
@@ -125,6 +122,36 @@ img {
     width: 100%;
     top: 0;
     left: 0;
+}
+
+.header-nav-ip {
+    width: 170px;
+    height: 60px;
+    background-color: #14c2c6;
+    font-size: 16px;
+    font-weight: 900;
+    border-radius: 10%;
+    text-transform: uppercase;
+    font-family: 'Otomanopee One', sans-serif;
+    margin-right: 30%;
+    text-align: center;
+}
+
+.header-nav-ip span {
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(239, 209, 2);
+}
+
+.header-nav-ip a {
+    display: inline-block;
+    margin-top: 4px;
+    color: rgb(255, 44, 44);
+
+}
+
+.header-nav-ip a:hover {
+    text-shadow: rgb(206 0 0) 0 0 15px;
 }
 
 .header-nav {
@@ -145,7 +172,10 @@ img {
 }
 
 #main {
+    width: 90%;
+    margin: 40% auto;
     padding-top: 85px;
+    box-shadow: 0 0 40px 0 rgb(16, 16, 134);
 }
 
 .donate-item {
@@ -170,6 +200,23 @@ img {
     margin-bottom: 20px;
 }
 
+.donate-item .donate-btn-buy {
+    width: 42%;
+    height: 16%;
+    background-color: #00e9ba;
+    border-color: #1f8b77;
+    font-size: 24px;
+    box-shadow: 0 0 0 rgb(0,0,0.15);
+    padding: 0;
+    font-family: 'Zen Loop', cursive;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    right: 56%;
+    top: 80%;
+}
+
 .donate-price {
     font-size: 30px;
     font-weight: 700;
@@ -190,6 +237,11 @@ img {
     position: absolute;
     right: 20px;
     top: -20px;
+}
+
+.donate-item .donate-btn-buy:hover {
+    transform: scale(0.9);
+    box-shadow: 0 0 25px 0 rgb(31, 139, 119);
 }
 
 .about-us-text {
