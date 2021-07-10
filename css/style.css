@@ -124,18 +124,6 @@ img {
     left: 0;
 }
 
-.header-nav-ip {
-    width: 170px;
-    height: 60px;
-    background-color: #14c2c6;
-    font-size: 16px;
-    font-weight: 900;
-    border-radius: 10%;
-    text-transform: uppercase;
-    font-family: 'Otomanopee One', sans-serif;
-    margin-right: 30%;
-    text-align: center;
-}
 
 .header-nav-ip span {
     display: inline-block;
